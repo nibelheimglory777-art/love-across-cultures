@@ -134,6 +134,22 @@
         }
 
         .guarantee-box { margin-top: 30px; color: var(--success-green); }
+        @media (max-width: 600px) {
+    h1 {
+        font-size: 2rem !important; /* Ajusta el título para que no se corte */
+    }
+    p {
+        font-size: 1rem !important;
+        line-height: 1.5;
+    }
+    .purchase-footer {
+        padding: 20px 10px; /* Menos espacio a los lados en móvil */
+    }
+    button, .cta-button {
+        width: 100%; /* El botón ocupa todo el ancho para que sea fácil de tocar con el pulgar */
+        font-size: 1.2rem;
+    }
+}
     </style>
 </head>
 <body>
